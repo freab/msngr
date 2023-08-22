@@ -37,13 +37,11 @@ const Form = () => {
   };
 
   return (
-    <div
-      className="flex items-center w-full gap-2 px-4 py-4 bg-white border-t  lg:gap-4"
-    >
+    <div className="flex items-center w-full gap-2 px-4 py-4 bg-white border-t lg:gap-4">
       <CldUploadButton
         options={{ maxFiles: 1 }}
         onUpload={handleUpload}
-        uploadPreset="vpddf8fa"
+        uploadPreset="pm9ouqtp"
       >
         <HiPhoto size={30} className="text-sky-500" />
       </CldUploadButton>
@@ -60,7 +58,7 @@ const Form = () => {
         />
         <button
           type="submit"
-          className="p-2 transition rounded-full cursor-pointer  bg-sky-500 hover:bg-sky-600"
+          className="p-2 transition rounded-full cursor-pointer bg-sky-500 hover:bg-sky-600"
         >
           <HiPaperAirplane size={18} className="text-white" />
         </button>
